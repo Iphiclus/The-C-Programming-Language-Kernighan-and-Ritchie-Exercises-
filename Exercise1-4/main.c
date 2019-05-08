@@ -1,13 +1,27 @@
+/*
+ * Filename:    main.c
+ * Author:      Georgina Hall
+ * Date:        08-MAY-2019
+ *
+ * The C Programming Language, second edition,
+ * by Brian W. Kernighan and Dennis M. Ritchie
+ *
+ * Exercise 1-4, page 13
+ *
+ * Write a program to print the corresponding Celsius to Fahrenheit
+ * table.
+ */
+
 #include <stdio.h>
 
-/* print Fahrenheit-Celsius table
-for far = 0, 20 ..., 300 */
+/* print Celsius-Fahrenheit table
+for Celsius = 0, 20 ..., 300 */
 main()
 {
 	float fahr, celsius;
 	int lower, upper, step;
 
-	lower = 0;		/* lower limt of temperatur table */
+	lower = 0;		/* lower limit of temperature table */
 	upper = 300;	/* upper limit */
 	step = 20;		/* step size */
 
