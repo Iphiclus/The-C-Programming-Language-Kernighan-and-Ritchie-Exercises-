@@ -29,6 +29,8 @@ bld/
 
 # Visual Studio Code
 .vscode
+*.plist
+*.dSYM
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
