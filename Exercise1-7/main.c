@@ -8,7 +8,7 @@
  *
  * Exercise 1-7, page 17
  *
- * Modify the temperature conversion program to print a heading above the table.
+ * Print the value of EOF.
  */
 
 #include <stdio.h>
